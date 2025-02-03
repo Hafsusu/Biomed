@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins'sans-serif;
+}
+body{
+   background-image: url(/class\ project/assets/loooo9.webp);
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 600px;
+    width: 100%;
+    
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius:20px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.login-form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255,255, 255, 0.5);
+    margin: 50px;
+}
+#username{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset;
+    font-size: 1rem;
+    color: white;
+}
+#username:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#password{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset;
+    font-size: 1rem;
+    color: white;
+}
+#password:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.user-input .main{
+    font-size: 1.5rem;
+}
+.password-input .passw{
+    font-size: 1.5rem;
+}
+.login-form p{
+    margin-right: 4rem;
+    font-size: 1rem;
+}
+.login-btn{
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset-3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+}

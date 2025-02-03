@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins'sans-serif;
+}
+body{
+    background: url(loooo9.webp);
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(172, 151, 151);
+    border-radius:10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color:white;
+    box-shadow: inset -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.login-form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255,255, 255, 0.5);
+    margin: 30px;
+}
+#username{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: 1px solid rgb(172, 151, 151);
+    outline: none;
+    border-radius: 10px;
+    background-color: orangered;
+    box-shadow: inset;
+    font-size: 1rem;
+    color: black;
+}
+#username:hover{
+    background-color: white;
+}
+#password{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border:1px solid rgb(172, 151, 151);
+    outline: none;
+    border-radius: 10px;
+    background-color: orangered;
+    box-shadow: inset;
+    font-size: 1rem;
+    color: black;
+}
+#password:hover{
+    background-color: white;
+}
+.user-input .main{
+    font-size: 1.5rem;
+}
+.password-input .passw{
+    font-size: 1.5rem;
+}
+.login-form p{
+    margin-right: 4rem;
+    font-size: 1rem;
+}
+.login-btn{
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 50%;
+    background-color:orangered;
+    box-shadow: inset-3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.alternative-signup span{
+    color: rgb(81, 81, 230);
+}
+
+
+
+
+
+/* padding: 12px;
+margin: 20px;
+width: 65%;
+border: none;
+outline: none;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.5);
+box-shadow: inset;
+font-size: 1rem;
+color: white; */
